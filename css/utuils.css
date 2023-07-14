@@ -1,0 +1,10 @@
+.max_width1{
+    max-width: 50vw;
+}
+.max_width2{
+    max-width: 80vw;
+}
+.m_auto{
+    margin: auto;
+    /* margin-top: 20px; */
+}

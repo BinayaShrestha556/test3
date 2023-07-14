@@ -1,0 +1,284 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+}
+
+.left img {
+    padding: 0 10px;
+    height: auto;
+    width: 40px;
+}
+
+.search {
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid rgb(38, 38, 38);
+    font-size: large;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.s_button {
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid grey;
+    background-color: grey;
+    cursor: pointer;
+    font-size: large;
+    padding: 5px 10px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.s_button:hover {
+    background-color: rgb(188, 186, 186);
+    color: black;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.mid ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 9%;
+}
+
+.mid ul li a {
+    display: flex;
+    margin: 0 5px;
+    padding: 9px 11px;
+    /* border: 1px solid black; */
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+    background-color: grey;
+    transition: all 0.2s ease-in-out
+}
+
+.mid ul li a:hover {
+    color: black;
+    background-color: rgb(188, 186, 186);
+}
+
+i {
+    padding: 1.5px;
+}
+
+.content {
+    margin: auto;
+}
+
+.footer {
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(102, 156, 177, 0.3);
+    /* margin-top: 50px; */
+    padding: 5px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.intro h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+.intro p {
+    font-style: italic;
+    font-size: large;
+}
+
+.pic img {
+    height: auto;
+    width: 140px;
+}
+
+.introwords {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(86, 85, 85);
+    width: 35vw;
+    padding: 5%;
+}
+
+.para {
+    padding: 10px;
+}
+
+.pic {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introwords h1 {
+    padding: 10px;
+}
+
+.content hr {
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    background-color: rgb(89, 127, 124, 0.8);
+    padding: 30px;
+    width: 75vw;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.girly {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(105, 111, 159);
+    min-width: 276px;
+    width: 48%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.imag {
+    max-width: 200px;
+}
+
+.girlypoo {
+    height: 200px;
+    margin: auto;
+    max-width: 200px;
+}
+
+.girly a {
+    margin: auto;
+}
+
+.aboutgirlypoo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    color: aliceblue;
+    padding: 10px;
+
+}
+
+.aboutgirlypoo p {
+    padding-top: 5px;
+}
+
+/* footer */
+.footer {
+    height: 70px;
+    background-color: rgb(191, 188, 188);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.footer a {
+    font-size: larger;
+}
+
+/* contact */
+.contactform {
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(203, 202, 202);
+    margin: 30px auto;
+    border-radius: 2px;
+    align-items: center;
+
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 30vw;
+    padding: 4px;
+
+    margin-bottom: 40px;
+    outline: none;
+
+}
+
+.comments {
+    height: 100px;
+}
+
+.contactform button {
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: large;
+    width: 50%;
+    margin: auto;
+
+}
+
+/* about me */
+.aboutme {
+    display: flex;
+    margin: 50px auto;
+
+    align-items: center;
+    background-color: rgb(126, 90, 90, 0.3);
+    padding: 35px;
+    flex-wrap: wrap;
+}
+
+.aboutme p {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+}
