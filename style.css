@@ -41,12 +41,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navfry a:hover{
-    background-color:rgb(73 70 88);
+    background-color:rgb(92, 69, 211);
 }
 .search input{
     border-radius: 5px;
     padding: 3px;
-    border: 3px bold rgb(8 11 45) ;
+    border: 3px bold rgb(2, 86, 221) ;
     font-size: 15px;
     position: relative;
     left: 30%;
